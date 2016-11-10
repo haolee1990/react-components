@@ -1,0 +1,73 @@
+.mod-pop-box {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1001;
+	background-color: rgba(0, 0, 0, 0.3);
+	overflow: hidden
+}
+.mod-pop-box .pop-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 0 0.42rem;
+	width: 8.4rem
+}
+.mod-pop-box .pop-hd {
+	line-height: 1;
+	padding: .6rem 0;
+	overflow: hidden
+}
+.mod-pop-box .pop-hd h3 {
+	font-size: .6rem;
+	text-align: center
+}
+.mod-pop-box .pop-hd .icon-delete {
+	font-size: .6rem;
+	vertical-align: -.02rem
+}
+.mod-pop-box .pop-bd {
+	color: #999;
+	width: 100%;
+	max-height: 10rem;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch
+}
+.mod-pop-box .pop-ft {
+	position: relative;
+	font-size: .48rem;
+	line-height: 1.4rem;
+	text-align: center;
+	margin: 0.6rem -0.42rem 0
+}
+.mod-pop-box .pop-ft:before {
+	border-top: 1px solid #e2e2e2;
+	content: ' ';
+	display: block;
+	width: 100%;
+	position: absolute;
+	left: 0
+}
+.mod-pop-box .pop-ft:before {
+	top: 0
+}
+.mod-pop-box .pop-ft a {
+	display: block
+}
+.mod-pop-box .pop-ft.btns a {
+	width: 50%;
+	height: .8rem;
+	line-height: .8rem;
+	margin: .3rem 0;
+	overflow: hidden;
+	float: left
+}
+.mod-pop-box .pop-ft.btns a:last-of-type {
+	margin-right: 0;
+	border-left: 1px solid #eee
+}
